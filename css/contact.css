@@ -2,9 +2,10 @@ body {
     margin: 0;
     padding: 0;
     background: #FFA500;
-    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    overflow-x: hidden;
 }
 
+/*-----------------------------------------nav bar-----------------------------------*/
 nav {
     background: black;
     display: flex;
@@ -12,7 +13,7 @@ nav {
     justify-content: space-between;
     height: 160px;
     padding: 0 20px;
-    width: 100%; /* Ensure the nav bar spans the full width */
+    width: 100%;
 }
 
 ul {
@@ -21,7 +22,7 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: 0; /* Remove any margin */
+    margin: 0;
 }
 
 li {
@@ -34,7 +35,8 @@ li a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: white;
     height: 160px;
 }
@@ -45,5 +47,34 @@ li a:hover {
 
 .logo {
     height: 100%;
-    margin-left: auto; /* Move the logo to the right side of the nav bar */
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    width: 100%;
+    text-align: left;
+    color: white;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        height: auto;
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        flex: auto;
+    }
+
+    li a {
+        height: auto;
+        padding: 10px;
+    }
 }

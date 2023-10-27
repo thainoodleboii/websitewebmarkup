@@ -365,8 +365,12 @@ footer {
         max-width: 100px;
     }
     .imagesocialicon {
-        max-width: 20px;
-        
+        max-width: 25px;
+
+    }
+    .copyright{
+        min-width: 100%;
+        font-size: 13px;
     }
 }
 
