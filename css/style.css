@@ -59,10 +59,15 @@ li a:hover {
     padding: 20px;
 }
 
+.learn-more-button:active {
+    color: #FFA500;
+    font-size: 30px;
+}
+
 @media screen and (max-width: 768px) {
     nav {
         height: auto;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     ul {
@@ -90,8 +95,8 @@ li a:hover {
 .text {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    text-align: center; 
+    align-items: center;
+    text-align: center;
     width: 100%;
 }
 
@@ -127,12 +132,12 @@ li a:hover {
 }
 
 .map-image {
-    width: 90%; 
+    width: 90%;
     max-height: 387px;
     max-width: 620px;
     border-radius:
-     15px;
-    margin-right: 13%; 
+        15px;
+    margin-right: 13%;
 }
 
 
@@ -152,8 +157,8 @@ li a:hover {
     }
 
     .map-image {
-        width: 100%; 
-        max-width: 90%; 
+        width: 100%;
+        max-width: 90%;
         border-radius: 15px;
         margin-right: 0;
         margin-top: 30px;
@@ -178,7 +183,7 @@ li a:hover {
     }
 
     .map-image {
-        width: 100%; 
+        width: 100%;
         border-radius: 15px;
         margin-right: 0;
         margin-top: 30px;
@@ -213,7 +218,7 @@ li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
 
@@ -271,7 +276,7 @@ li a:hover {
     margin-top: 10px;
     font-family: 'Orelega One', serif;
     font-size: 26px;
-    min-width: 80%; 
+    min-width: 80%;
 }
 
 /* Media query for smaller screens */
@@ -320,7 +325,8 @@ footer {
     margin-left: 62px;
 }
 
-.contact-link, .homepage-link {
+.contact-link,
+.homepage-link {
     text-decoration: none;
     color: #fff;
     margin: 10px;
@@ -356,25 +362,27 @@ footer {
         width: 100%;
     }
 
-    .contact-link, .homepage-link {
-        margin: 10px 20px; 
+    .contact-link,
+    .homepage-link {
+        margin: 10px 20px;
     }
 
     .social-icon {
-        margin: 0 20px; 
+        margin: 0 20px;
         max-width: 10px;
     }
 
     .logo {
         max-width: 100px;
     }
+
     .imagesocialicon {
         max-width: 25px;
 
     }
-    .copyright{
+
+    .copyright {
         min-width: 100%;
         font-size: 13px;
     }
 }
-

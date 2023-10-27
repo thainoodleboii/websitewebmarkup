@@ -183,8 +183,7 @@ footer {
     margin-left: 62px;
 }
 
-.contact-link,
-.homepage-link {
+.contact-link, .homepage-link {
     text-decoration: none;
     color: #fff;
     margin: 10px;
