@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFA500;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+nav {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+    padding: 0 20px;
+    width: 100%; /* Ensure the nav bar spans the full width */
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0; /* Remove any margin */
+}
+
+li {
+    flex: 1;
+}
+
+li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+    height: 160px;
+}
+
+li a:hover {
+    background: #FFA500;
+}
+
+.logo {
+    height: 100%;
+    margin-left: auto; /* Move the logo to the right side of the nav bar */
+}

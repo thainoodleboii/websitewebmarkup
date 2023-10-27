@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFA500;
+    overflow-x: hidden;
+}
+
+/*-----------------------------------------nav bar-----------------------------------*/
+nav {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+}
+
+li {
+    flex: 1;
+}
+
+li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    height: 160px;
+}
+
+li a:hover {
+    background: #FFA500;
+}
+
+.logo {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    width: 100%;
+    text-align: left;
+    color: white;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        height: auto;
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        flex: auto;
+    }
+
+    li a {
+        height: auto;
+        padding: 10px;
+    }
+}
+
+/*--------------------------title and icon-------------------------------------*/
+
+.titleandicons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.titlepage {
+    text-align: left;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.threeicons {
+    display: flex;
+    align-items: center;
+}
+
+.icon-next-to-title {
+    margin: 0 25px;
+    width: 90px;
+    height: auto;
+}
+
+/*------------------------upper content---------------------------------------*/
+
+.uppercontent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.textuppercontent {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    max-width: 600px;
+}
+
+.pictureuppercontent {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.thickerfont {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+
+/*------------------------lower content---------------------------------------*/
+
+.lowercontent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.textlowercontent {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    max-width: 600px;
+}
+
+.picturelowercontent {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    max-height: 600px;
+}
+
+
+/*--------------------Footer---------------------*/
+
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 110px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: 62px;
+}
+
+.contact-link,
+.homepage-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    display: block;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.logo {
+    max-width: 160px;
+    height: auto;
+    margin: 10px;
+}
+
+.copyright {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        margin-left: 0;
+
+        width: 100%;
+    }
+
+    .contact-link,
+    .homepage-link {
+        margin: 10px 20px;
+    }
+
+    .social-icon {
+        margin: 0 20px;
+        max-width: 10px;
+    }
+
+    .logo {
+        max-width: 100px;
+    }
+
+    .imagesocialicon {
+        max-width: 20px;
+
+    }
+}
