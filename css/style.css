@@ -85,6 +85,21 @@ li a:hover {
     }
 }
 
+
+.cookie-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: auto; 
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    z-index: 9999;
+    margin: 0;
+}
+
+
 /* ------------------top section lala---------------------*/
 .main-section {
     display: flex;

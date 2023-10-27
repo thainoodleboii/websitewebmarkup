@@ -112,13 +112,17 @@ li a:hover {
     }
 
     .titlepage {
-        text-align: center; /* Center the title in mobile mode */
-        font-size: 40px; /* Adjust font size for mobile */
-        margin-bottom: 20px; /* Add some spacing between title and icons */
+        text-align: center;
+        /* Center the title in mobile mode */
+        font-size: 40px;
+        /* Adjust font size for mobile */
+        margin-bottom: 20px;
+        /* Add some spacing between title and icons */
     }
 
     .icon-next-to-title {
-        margin: 10px 0; /* Adjust spacing for icons in mobile mode */
+        margin: 10px 0;
+        /* Adjust spacing for icons in mobile mode */
     }
 }
 
@@ -126,9 +130,12 @@ li a:hover {
 /*------------------------upper content---------------------------------------*/
 /* Add styles to the unordered list and list items */
 .textuppercontent ul {
-    list-style: disc; /* You can change the bullet style if needed */
-    margin-left: 60px; /* Adjust the left margin to provide indentation */
-    padding-left: 0; /* Reset any default padding */
+    list-style: disc;
+    /* You can change the bullet style if needed */
+    margin-left: 60px;
+    /* Adjust the left margin to provide indentation */
+    padding-left: 0;
+    /* Reset any default padding */
 }
 
 .textuppercontent ul li {
@@ -155,17 +162,20 @@ li a:hover {
     font-size: 26px;
     max-width: 600px;
 }
+
 .uppercontent .textuppercontent {
-    letter-spacing: 0.5px; 
-    line-height: 1.5; 
-    text-indent: 0px; 
-    word-spacing: 1px; 
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-indent: 0px;
+    word-spacing: 1px;
 }
 
 .pictureuppercontent {
     display: flex;
     align-items: center;
+    max-height: 450px;
 }
+
 
 
 @media (max-width: 768px) {
@@ -175,12 +185,12 @@ li a:hover {
     }
 
     .pictureuppercontent {
-        order: -1; 
-        margin-top: 20px; 
+        order: -1;
+        margin-top: 20px;
     }
 
     .textuppercontent {
-        text-align: left; 
+        text-align: left;
     }
 }
 
@@ -192,12 +202,12 @@ li a:hover {
     }
 
     .pictureuppercontent {
-        order: -1; 
+        order: -1;
         margin-bottom: 30px;
     }
 
     .textuppercontent {
-        text-align: left; 
+        text-align: left;
     }
 }
 
@@ -205,11 +215,12 @@ li a:hover {
 
 /*------------------------lower content---------------------------------------*/
 .lowercontent .textlowercontent {
-    letter-spacing: 0.5px; 
-    line-height: 1.5; 
-    text-indent: 0px; 
-    word-spacing: 1px; 
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-indent: 0px;
+    word-spacing: 1px;
 }
+
 .lowercontent {
     display: flex;
     justify-content: space-evenly;
@@ -227,6 +238,7 @@ li a:hover {
 .picturelowercontent {
     display: flex;
     align-items: center;
+    max-height: 400px;
 }
 
 .thickerfont {
@@ -234,6 +246,10 @@ li a:hover {
     font-weight: 600;
 }
 
+.textlowercontent p {
+    line-height: 1;
+    /* Adjust this value to control the line height */
+}
 
 @media (max-width: 768px) {
     .lowercontent {
@@ -242,12 +258,12 @@ li a:hover {
     }
 
     .picturelowercontent {
-        order: -1; 
-        margin-top: 20px; 
+        order: -1;
+        margin-top: 20px;
     }
 
     .textlowercontent {
-        text-align: left; 
+        text-align: left;
     }
 }
 
@@ -259,12 +275,12 @@ li a:hover {
     }
 
     .picturelowercontent {
-        order: -1; 
+        order: -1;
         margin-bottom: 30px;
     }
 
     .textlowercontent {
-        text-align: left; 
+        text-align: left;
     }
 }
 
@@ -354,7 +370,7 @@ li a:hover {
 
 
 @media (max-width: 900px) {
-    .openingcontactlocationcontent{
+    .openingcontactlocationcontent {
         font-size: 23px;
     }
 
@@ -365,7 +381,7 @@ li a:hover {
 
 
 @media (max-width: 641px) {
-    .openingcontactlocationcontent{
+    .openingcontactlocationcontent {
         font-size: 13px;
     }
 
@@ -400,7 +416,8 @@ footer {
     margin-left: 62px;
 }
 
-.contact-link, .homepage-link {
+.contact-link,
+.homepage-link {
     text-decoration: none;
     color: #fff;
     margin: 10px;
@@ -436,23 +453,26 @@ footer {
         width: 100%;
     }
 
-    .contact-link, .homepage-link {
-        margin: 10px 20px; 
+    .contact-link,
+    .homepage-link {
+        margin: 10px 20px;
     }
 
     .social-icon {
-        margin: 0 20px; 
+        margin: 0 20px;
         max-width: 10px;
     }
 
     .logo {
         max-width: 100px;
     }
+
     .imagesocialicon {
         max-width: 25px;
 
     }
-    .copyright{
+
+    .copyright {
         min-width: 100%;
         font-size: 13px;
     }

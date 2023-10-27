@@ -78,3 +78,13 @@ li a:hover {
         padding: 10px;
     }
 }
+
+
+.openingcontactlocationcontent {
+    text-align: left;
+    font-family: 'Orelega One', serif;
+    font-size: 36px;
+    max-width: 600px;
+    margin: 0;
+    padding: 0;
+}
