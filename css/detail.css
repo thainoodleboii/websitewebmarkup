@@ -124,6 +124,24 @@ li a:hover {
 
 
 /*------------------------upper content---------------------------------------*/
+/* Add styles to the unordered list and list items */
+.textuppercontent ul {
+    list-style: disc; /* You can change the bullet style if needed */
+    margin-left: 60px; /* Adjust the left margin to provide indentation */
+    padding-left: 0; /* Reset any default padding */
+}
+
+.textuppercontent ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    max-width: 600px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-indent: 0px;
+    word-spacing: 1px;
+}
 
 .uppercontent {
     display: flex;
@@ -136,6 +154,12 @@ li a:hover {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     max-width: 600px;
+}
+.uppercontent .textuppercontent {
+    letter-spacing: 0.5px; 
+    line-height: 1.5; 
+    text-indent: 0px; 
+    word-spacing: 1px; 
 }
 
 .pictureuppercontent {
@@ -180,7 +204,12 @@ li a:hover {
 
 
 /*------------------------lower content---------------------------------------*/
-
+.lowercontent .textlowercontent {
+    letter-spacing: 0.5px; 
+    line-height: 1.5; 
+    text-indent: 0px; 
+    word-spacing: 1px; 
+}
 .lowercontent {
     display: flex;
     justify-content: space-evenly;
@@ -262,14 +291,12 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* Center text with space around it */
     border-radius: 30px;
     box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.3);
     margin-top: 70px;
     margin-bottom: 75px;
 }
 
-/* Centered words styles */
 .blackbartext {
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
@@ -307,6 +334,12 @@ li a:hover {
     padding: 0;
 }
 
+.openinghourscontent span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
 .openingcontactlocationcontent a {
     color: black;
     text-decoration: none;
@@ -317,6 +350,8 @@ li a:hover {
 .openingcontactlocationcontent img {
     margin-right: 30px;
 }
+
+
 
 @media (max-width: 900px) {
     .openingcontactlocationcontent{
