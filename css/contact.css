@@ -80,7 +80,12 @@ li a:hover {
 
 /*fffffffffffffffffffffffffffffffffff*/
 
-
+.contactus{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+}
 
 
 .contactdetailtext {
@@ -92,6 +97,7 @@ li a:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    margin-bottom: 130px;
 }
 
 .contactdetails{
@@ -99,3 +105,210 @@ li a:hover {
     flex-direction: column;
 }
 
+.flex-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imagecontact {
+    max-height: 550px;
+    border-radius: 30px;
+    min-width: 200px;
+    max-width: 100%; 
+}
+
+
+
+
+/* fffffffffffff FORM  ffffffffffffffffff*/
+
+
+
+.basic-form {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.basic-form h2 {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid 2px;
+    color: white;
+    background-color: black;
+}
+
+.basic-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.basic-form input[type="text"],
+.basic-form input[type="tel"],
+.basic-form input[type="email"],
+.basic-form textarea {
+    width: calc(100% - 25px); 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.basic-form * {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.basic-form textarea {
+    height: 100px;
+}
+
+.basic-form input[type="submit"] {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: solid 2px;
+}
+
+.basic-form input:active{
+    color: #FFA500;
+    background-color: white;
+}
+
+.gender-label input[type="radio"] {
+    margin-right: 5px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .contactus {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 60px;
+    }
+    
+    .contactdetails {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center text on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+    
+    .contactdetailtext {
+        font-family: 'Orelega One', serif;
+        font-size: 36px;
+        margin: 20px 0; /* Add margin only at the top and bottom */
+        padding: 0;
+    }
+    
+    .flex-items {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+    
+    .imagecontact {
+        max-width: 100%; /* Ensure the image scales with the width of the container */
+        height: auto;
+        margin-top: 20px; /* Add spacing between text and image */
+    }
+    
+}
+
+
+/*--------------------Footer---------------------*/
+
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 80px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: 62px;
+}
+
+.contact-link,
+.homepage-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    display: block;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.logo {
+    max-width: 160px;
+    height: auto;
+    margin: 10px;
+}
+
+.copyright {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        margin-left: 0;
+
+        width: 100%;
+    }
+
+    .contact-link,
+    .homepage-link {
+        margin: 10px 20px;
+    }
+
+    .social-icon {
+        margin: 0 20px;
+        max-width: 10px;
+    }
+
+    .logo {
+        max-width: 100px;
+    }
+
+    .imagesocialicon {
+        max-width: 25px;
+
+    }
+
+    .copyright {
+        min-width: 100%;
+        font-size: 13px;
+    }
+}
