@@ -89,7 +89,7 @@ li a:hover {
 
 
 .contactdetailtext {
-    font-family: 'Orelega One', serif;
+    font-family: 'Raleway', serif;
     font-size: 36px;
     margin: 20px;
     padding: 0;
@@ -97,6 +97,7 @@ li a:hover {
     flex-direction: row;
     align-items: flex-start;
     margin-bottom: 70px;
+    text-indent: 15px;
 }
 
 .contactdetails{
@@ -118,13 +119,6 @@ li a:hover {
 
 @media (max-width: 768px) {
    
-    
-    .contactdetailtext {
-        font-family: 'Orelega One', serif;
-        font-size: 36px;
-        margin: 20px; 
-        padding: 0;
-    }
     
     .flex-items {
         display: flex;
