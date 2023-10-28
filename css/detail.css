@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #FFA500;
-    overflow-x: hidden;
+    
 }
 
 /*-----------------------------------------nav bar-----------------------------------*/
@@ -12,7 +12,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     height: 160px;
-    padding: 0 20px;
+    padding: 0;
     width: 100%;
 }
 
@@ -329,7 +329,7 @@ li a:hover {
 .openingcontactlocation {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .openingcontactlocationcontent {
@@ -367,17 +367,11 @@ li a:hover {
     margin-right: 30px;
 }
 
-
-
-@media (max-width: 900px) {
-    .openingcontactlocationcontent {
-        font-size: 23px;
-    }
-
-    .openinghourscontent {
-        font-size: 30px;
-    }
+.iconslink{
+    margin: 60px;
 }
+
+
 
 
 @media (max-width: 641px) {
@@ -477,3 +471,5 @@ footer {
         font-size: 13px;
     }
 }
+
+
