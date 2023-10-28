@@ -2,11 +2,10 @@ body {
     margin: 0;
     padding: 0;
     background: #FFA500;
-    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
-/*------------------------nav bar---------------------*/
+/*-----------------------------------------nav bar-----------------------------------*/
 nav {
     background: black;
     display: flex;
@@ -108,6 +107,7 @@ li a:hover {
     align-items: center;
     text-align: center;
     width: 100%;
+    margin-left: 40px;
 }
 
 .general-info {
@@ -149,7 +149,7 @@ li a:hover {
 }
 
 .map-image {
-    width: 90%;
+    width: 60%;
     max-height: 387px;
     max-width: 620px;
     border-radius:
@@ -296,10 +296,11 @@ li a:hover {
 /*--------------------Footer---------------------*/
 
 
+
 footer {
     background-color: black;
     color: #fff;
-    padding: 0;
+    padding: 10px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
