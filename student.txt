@@ -1,0 +1,5 @@
+Student name: Damisa Vooges
+Student number: 717445
+Student class: HAITFT1F
+GitHub Repository: https://thainoodleboii.github.io/websitewebmarkup/index.html
+GitHub Pages URL: https://github.com/thainoodleboii/websitewebmarkup
