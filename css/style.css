@@ -260,10 +260,12 @@ li a:hover {
     text-align: left;
     max-width: 600px;
     margin: 80px auto;
+    overflow-x: visible;
 }
 
 .iconlowercontent {
     max-width: 200px;
+    min-width: 200px;
     margin-right: 20px;
 }
 
@@ -273,7 +275,7 @@ li a:hover {
     margin-top: 10px;
     font-family: 'Orelega One', serif;
     font-size: 26px;
-    min-width: 80%;
+    min-width: 100%;
 }
 
 /* Media query for smaller screens */
