@@ -256,6 +256,7 @@ li a:hover {
 
 .containerlowercontent {
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: left;
     max-width: 600px;
@@ -275,8 +276,10 @@ li a:hover {
     margin-top: 10px;
     font-family: 'Orelega One', serif;
     font-size: 26px;
-    min-width: 100%;
+    min-width: 90%;
+    
 }
+
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {

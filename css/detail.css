@@ -137,12 +137,8 @@ li a:hover {
 /*------------------------upper content---------------------------------------*/
 
 .textuppercontent ul {
-    list-style: disc;
-
     margin-left: 60px;
-
     padding-left: 0;
-
 }
 
 .textuppercontent ul li {
